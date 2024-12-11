@@ -1,0 +1,51 @@
+.technicians-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.technicians-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.technicians-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.technician-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.technician-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.technician-card h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.technician-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.technician-card a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+}
